@@ -1,4 +1,4 @@
-# Unpinned blobs from alioth_global-user 11 RKQ1.200826.002 V12.5.6.0.RKHMIXM release-keys
+# Unpinned blobs from alioth_global-user 11 RKQ1.200826.002 V12.5.4.0.RKHMIXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -449,6 +449,7 @@ vendor/etc/camera/reid_float.dlc
 vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/seg_quantized.dlc
 vendor/etc/camera/sr_params.xml
+vendor/etc/camera/st_license.lic
 vendor/etc/camera/vidhance_calibration
 
 # Camera-firmware
@@ -462,9 +463,6 @@ vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmulticam_image_optical_zoom.so
 vendor/lib64/libmulticam_optical_zoom_control.so
 vendor/lib64/libmulticam_video_optical_zoom.so
-
-# Display-calibration
-vendor/etc/qdcm_calib_data_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml
 
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
@@ -527,9 +525,7 @@ vendor/etc/sensors/hals.conf
 vendor/etc/sensors/judge_calibrated.json
 vendor/etc/sensors/sensor_diag.cfg
 vendor/etc/sensors/sns_reg_config
-
-# Epiliptic Sensor Config
-vendor/etc/elliptic_sensor.xml|47c53c14f00bf9aaf074d9915d2a6659
+vendor/etc/elliptic_sensor.xml
 
 # Sensors
 vendor/bin/init.qcom.sensors.sh
